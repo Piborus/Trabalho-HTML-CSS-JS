@@ -1,0 +1,51 @@
+.container-principal{
+    background-color: gray;
+}
+
+.titulo-do-site{
+    text-align: center;
+    font-weight: bold;
+    font-size: 100%;
+}
+
+.minha-coluna{
+    border: 1px solid black;
+    height: 100px;
+    background-color: yellowgreen;
+}
+
+.minha-coluna2{
+    border: 1px solid black;
+    height: 100px;
+    background-color: red;
+}
+.minha-coluna3{
+    border: 1px solid black;
+    height: 100px;
+    background-color: orange;
+}
+.minha-coluna4{
+    border: 1px solid black;
+    height: 100px;
+    background-color: aqua;
+}
+.minha-coluna5{
+    border: 1px solid black;
+    height: 100px;
+    background-color: rosybrown;
+}
+.minha-coluna6{
+    border: 1px solid black;
+    height: 100px;
+    background-color: gold;
+}
+.minha-coluna7{
+    border: 1px solid black;
+    height: 100px;
+    background-color: greenyellow;
+}
+.minha-coluna8{
+    border: 1px solid black;
+    height: 100px;
+    background-color: purple;
+}

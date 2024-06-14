@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Planos de Saúde</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap-grid.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-12 col-md-6">
+                <h1 class="text-center my-4">SEGURA MEDIC</h1>
+                <form id="health-plan-form">
+                    <div class="form-group">
+                        <label for="age">Idade:</label>
+                        <input type="number" class="form-control" id="age" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="weight">Peso (kg):</label>
+                        <input type="number" class="form-control" id="weight" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="height">Altura (m):</label>
+                        <input type="number" class="form-control" id="height" step="0.01" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block font-weight-bold">CALCULAR</button>
+                </form>
+            </div>
+            <div class="col-12 col-md-6">
+                <div id="result" class="intro-text">
+                    <h3>Bem-vindo ao Segura Medic</h3>
+                    <p>Nosso sistema foi desenvolvido para ajudá-lo a encontrar o melhor plano de saúde de acordo com seu perfil. Preencha os campos ao lado com suas informações de idade, peso e altura, e clique em "CALCULAR" para obter uma análise detalhada dos planos disponíveis.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

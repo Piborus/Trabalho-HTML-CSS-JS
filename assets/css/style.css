@@ -1,0 +1,141 @@
+body {
+    background-color: #f0f2f5;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://cdn.dribbble.com/users/7571685/screenshots/20530212/media/ae81cd3b6da25cc5e662f11e397b14c3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffffcb;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 2px 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.text-center {
+    color: #007bff;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.form-group label {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.form-control {
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.btn {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #014b9b;
+}
+
+.intro-text, .result-section {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.fade-in {
+    animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.result-section h3 {
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #007bff;
+}
+
+.result-section p {
+    color: #333;
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.melhor-opcao {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.melhor-opcao h3 {
+    color: white;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 100%;
+        margin: 20px;
+    }
+
+    .text-center {
+        font-size: 24px;
+    }
+
+    .form-group label {
+        font-size: 16px;
+    }
+
+    .form-control {
+        font-size: 14px;
+    }
+
+    .btn {
+        font-size: 18px;
+    }
+
+    .intro-text, .result-section {
+        padding: 15px;
+        font-size: 14px;
+    }
+
+    .result-section h3 {
+        font-size: 20px;
+    }
+
+    .result-section p {
+        font-size: 14px;
+    }
+
+    .melhor-opcao {
+        font-size: 16px;
+    }
+}
